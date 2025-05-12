@@ -1,0 +1,45 @@
+.box {
+    border: 1px solid black;
+    height: auto;
+    padding: 12px;
+    background-color: rgb(54, 51, 51);
+    color: white;
+}
+
+button {
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 100px;
+
+
+}
+
+input {
+    padding: 10px;
+    color: white;
+    border-radius: 17px;
+
+}
+
+h1 {
+    color: yellow;
+}
+
+input::placeholder {
+    color: rgb(148, 133, 133);
+    
+}
+
+input[type=text] {
+    color: black;
+}
+
+button:hover {
+    background-color: rgb(150, 150, 233);
+    color: white;
+}
+
+input:hover {
+    background-color: antiquewhite;
+    
+}
