@@ -7,7 +7,7 @@ btn.addEventListener("click", () => {
     let ch = document.createElement("li");
     ch.innerText = inp.value;
     let butn = document.createElement("button");
-    inp.value = " ";
+    inp.value = "";
     butn.innerText = "Delete";
     ul.appendChild(ch);
     ul.appendChild(butn);
